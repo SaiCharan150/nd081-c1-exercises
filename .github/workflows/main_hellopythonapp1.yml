@@ -30,7 +30,8 @@ jobs:
         run: |
           python -m venv antenv
           source antenv/bin/activate
-          pip install -r "2. Azure Compute Services/Creating_a_Virtual_Machine/web/requirements.txt"
+          pip install -r "L2. Azure Compute Services/web/requirements.txt"
+
 
 
 
@@ -42,8 +43,7 @@ jobs:
         with:
           name: python-app
           path: |
-            .
-            !antenv/
+             L2. Azure Compute Services/web
 
       # 🚫 Opting Out of Oryx Build
       # If you prefer to disable the Oryx build process during deployment, follow these steps:
