@@ -30,7 +30,9 @@ jobs:
         run: |
           python -m venv antenv
           source antenv/bin/activate
-          pip install -r "L2. Azure Compute Services/Creating_a_Virtual_Machine/requirements.txt"
+          pip install -r "2. Azure Compute Services/Creating_a_Virtual_Machine/web/requirements.txt"
+
+
 
 
                 
